@@ -9,12 +9,27 @@
 
 ::-webkit-scrollbar{
  display: none;
- /* color: rgb(98, 135, 236);
- color: rgb(247, 107, 107);
- color: rgb(233, 230, 230);
-  */
+  color: rgb(255, 255, 255);
+ color: rgb(209, 172, 172);
+ color: rgb(59, 58, 58);
+}
+.follow{  
+  transform: rotate(0deg);
 }
 
+@media (min-width: 768px) {
+  .follow{
+    transform: rotate(-90deg);
+  }
+}
+
+.custom-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  justify-items: center;
+  justify-content: center;
+  gap: 4em;
+}
 
 /* ::-webkit-scrollbar-track{
 
