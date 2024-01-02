@@ -1,12 +1,12 @@
 "use client";
 
-import React, { useContext } from "react";
-// import Link from "next/link";
+import { useContext, useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 import { StateContext } from "../utils/context";
 import Avatar from "./avatar";
 import NavLink from "./navLink";
-
-
 
 const NavBar = () => {
   const { state, isAuth, setIsAuth, dispatch } = useContext(StateContext);
@@ -18,10 +18,9 @@ const NavBar = () => {
     });
   };
 
-
   return (
-    <div className="flex w-[25%]">
-        {isAuth ? <NavOnAuth /> : <NavOnVist />}
+    <div className="flex z-50 justify-end w-[25%]">
+      <NavContents />
       {navOpen ? <NavBody /> : ""}
     </div>
   );
@@ -29,16 +28,13 @@ const NavBar = () => {
 
 export default NavBar;
 
-
 // OTHER COMPONENTS UNDER THE NAVBAR
 
-const NavOnVist = () => {
-  return <nav className="hidden md:flex">On Visit</nav>;
-};
+const NavContents = () => {
+  const pathname = usePathname();
+  // console.log(pathname);
 
-
-const NavOnAuth = () => {
-  const { state, isAuth, setIsAuth, dispatch } = useContext(StateContext);
+  const { state, dispatch } = useContext(StateContext);
   const { navOpen } = state;
   const openNav = () => {
     dispatch({
@@ -48,26 +44,34 @@ const NavOnAuth = () => {
   };
 
   return (
-    <nav className="md:flex hidden justify-between items-center relative w-[100%]">
-      <div>Dan Precious</div>
-      <div className="px-3">
-      <NavProfileButton />
+    <nav className="md:flex hidden justify-end items-center relative w-[100%]">
+      <Link
+        href="/"
+        className={`hidden md:flex ${pathname === "/" ? "active" : ""}`}
+      >
+        <p className="font-semibold mx-5">Home</p>
+      </Link>
+      <Link
+        href="/articles"
+        className={`hidden md:flex ${pathname !== "/" ? "active" : ""}`}
+      >
+        <p className="font-semibold">Posts</p>
+      </Link>
+      <div className="px-3 md:hidden flex">
+        <NavProfileButton />
       </div>
     </nav>
   );
 };
 
 const NavBody = () => {
-  const navLinks = ["Profile", "Settings", "Theme", ""];
 
   const navItems = [
     {
-      title: "Profile",
-      href: "/dashboard",
+      title: "Home",
+      href: "/",
     },
-    { title: "Settings", href: "/dashboard/settings" },
-    { title: "Theme", href: "/dashboard/docs" },
-    { title: "How to use", href: "/dashboard/docs" },
+    { title: "All Posts", href: "/articles" },
   ];
   return (
     <ul className="w-[100%] absolute md:right-[] rounded-[4px] right-0  z-50 min-w-[5em] max-w-[14em] top-12 bg-zinc-50">
@@ -90,10 +94,7 @@ export const NavProfileButton = () => {
     });
   };
   return (
-    <button
-      className="absolute right-1 top-0"
-      onClick={openNav}
-    >
+    <button className="absolute right-1 top-0" onClick={openNav}>
       <Avatar />
     </button>
   );

@@ -2,14 +2,11 @@
 
 import React, { createContext, useReducer, useState } from "react";
 import { reducer } from "./reducer";
-import { FetchData } from "./apiCall";
 
 
 export const StateContext = React.createContext();
 
 export const ContextProvider = ({ children }) => {  
-
-  
   
   const [isAuth, setIsAuth] = useState(true);
     const defaultState = {

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-  /* border: 1px solid black; */
+    /* border: 1px solid black; */
  
 }
 
@@ -12,6 +12,7 @@
   color: rgb(255, 255, 255);
  color: rgb(209, 172, 172);
  color: rgb(59, 58, 58);
+
 }
 .follow{  
   transform: rotate(0deg);
@@ -25,16 +26,13 @@
 
 .custom-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
   justify-items: center;
   justify-content: center;
   gap: 4em;
 }
 
-/* ::-webkit-scrollbar-track{
-
+.active{
+  color: rgb(175, 6, 6);
+  
 }
-
-::-webkit-scrollbar-thumb{
-
-} */

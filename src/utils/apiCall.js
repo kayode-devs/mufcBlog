@@ -1,21 +1,15 @@
 import axios from "axios";
 
-
-export async function GetMaterials() {
-  
-     const response = await axios("http://localhost:3000/materials");
-      const data = await response.data;
-      console.log(data)
-      return data;
-}
-
-export const PostMaterials = async () => {
+export async function GetPosts() {
   try {
-    const post = await axios.post(""); 
+    const response = await axios("http://localhost:3000/posts");
+    const data = await response.data;
+    // console.log(response)
+    return data;
   } catch (error) {
-    console.error(error);
+    return error;
   }
-};
+}
 
 export async function FetchData() {
   let response;

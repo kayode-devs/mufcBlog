@@ -1,19 +1,28 @@
 import CustomButton from "@/_local-components/button";
-import LeftSideBar from "@/_local-components/left-side-bar";
+import CommentSecton from "@/_local-components/commentSecton";
+import RightSidebar from "@/_local-components/right-sidebar";
+import { GetPosts } from "@/utils/apiCall";
 import Image from "next/image";
 
-const UniqueBlog = () => {
+const UniqueBlog = async ({params: {articles}}) => {
+
+    const posts = await GetPosts()
+    
+    const uniquePost = posts[articles - 1];
+    const {title, author, date, images, comments, text_content} = uniquePost;
+    
+  
   return (
-    <div className="w-[100%] relative h-[94vh] flex justify-center">
-      <div className="absolute bottom-0 flex justify-center h-[92vh] overflow-scroll py-8 px-2 md:px-7 rounded-[20px] bg-zinc-50 w-[98%]">
-       <LeftSideBar />
-        <div className="md:w-[60%] overflow-scroll w-[100%] py-3 md:px-10">
-          <div className="w-full mb-5 bg-white h-[40%]">
+    <div className="w-[100%] relative h-[93vh] flex justify-center">
+      <div className="absolute bottom-0 flex justify-center h-[92vh] overflow-scroll py-8 px-2 md:px-5 rounded-[20px] bg-zinc-50 w-[98%]">
+       
+        <div className="md:w-[60%] overflow-scroll w-[100%] mt-5 md:px-7">
+          <div className="w-full mb-5 relative bg-white h-[40%] bg">
             <Image
-              src="/cover1.png"
+              src={`/${images.bg}`}
               alt="cover photo"
-              width={200}
-              height={100}
+              layout="fill"
+              objectFit="cover"
             />
           </div>
 
@@ -21,40 +30,22 @@ const UniqueBlog = () => {
           <div className="mb-5 bg-white px-5 py-2">
             <div>
               <h1 className="text-[1.5rem] md:w-[70%] py-2 font-bold">
-                Manchester United Coach, Erik Ten Hag to leave the club On
-                Monday
+                {title ? title : ""}
               </h1>
             </div>
             <div>
-              <p className="py-2">By Chidinma Ngozi Azam</p>
-              <p className="text-xs">Published 2 November, 2023</p>
+              <p className="py-2">By {author ? author : ""}</p>
+              <p className="text-xs">Published {date ? date : ""}</p>
             </div>
           </div>
           <div className="text-sm text-justify p-5">
-            <span className="text-[5em] font-bold">Lo</span>rem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-            quam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.
-            Nobis modi quas quidem tenetur commodi? Molestias delectus quasi
-            fugit corrupti architecto quam rem adipisci unde illum, autem nisi
-            porro eaque cum ab! Neque aliquam quam magnam laudantium veniam
-            inventore explicabo dignissimos pariatur? <br /> Modi temporibus animi
-            tenetur atque sed, quas vel non dolores totam ipsum illum ipsa
-            aperiam error laboriosam ipsam doloremque, perferendis natus
-            exercitationem ratione, voluptas iusto nulla reiciendis? Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Ducimus recusandae
-            adipisci nam autem facilis <br /> <br /> deleniti alias laboriosam iste, quae
-            dicta esse necessitatibus, harum excepturi animi perspiciatis sequi
-            beatae quasi. Rerum necessitatibus voluptas, et doloribus ut unde
-            culpa architecto est fugit exercitationem earum odio reiciendis
-            nihil pariatur, incidunt voluptatibus, magnam sit adipisci explicabo
-            iusto? At officiis dicta minus quia quidem dolor expedita unde
-            consequuntur praesentium placeat fugiat tenetur recusandae sapiente
-            vero, obcaecati ut! Qui illo dolorum corporis dolores eaque.
+            {text_content ? text_content : ""}
           </div>
-
+ 
           <div className="w-full flex md:justify-end md:px-3 justify-center">
             <div className="flex">
-            <CustomButton text="Previous Post"/>
-            <CustomButton text="Next Post"/>
+            <CustomButton text="Previous Post" />
+            <CustomButton text="Next Post" />
             </div>
           </div>
           
@@ -62,18 +53,22 @@ const UniqueBlog = () => {
           <div className="p-3">
             <p className="my-3 font-semibold">Leave a comment</p>
             <div className="my-3">
-              <textarea name="" id="" rows={7} className="w-[100%] outline-none border-solid border-[1px] border-red-100 resize-none max-h-[20%]"></textarea>
+              <textarea name="" id="" rows={7} className="w-[100%] outline-none border-solid border-[1px] p-2 border-red-100 resize-none max-h-[20%]"></textarea>
             </div>
             <div className="flex justify-end">
-              <CustomButton text="Post comment"/>
+              <CustomButton text="Post comment" className='bg-neutral-800'/>
             </div>
           </div>
+          <CommentSecton comments={comments} />
           </div>
         </div>
-        <div className="w-[20%] md:flex hidden">right</div>
+       <RightSidebar posts={posts} />
+
       </div>
     </div>
   );
 };
 
+
 export default UniqueBlog;
+

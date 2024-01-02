@@ -1,92 +1,93 @@
 {
-  "materials":[
+  "posts": [
     {
       "id": "1",
-      "title": "Mechatronics",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["mechanical engineering", "engineering"]
+      "title": "Dummy blog title for testing",
+      "author": "Dan Precious ~ Admin",
+      "date": "27 December, 2019",
+      "text_content": "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam",
+      "images": {
+        "bg": "bg-image.jpeg",
+        "sub": ""
+      },
+      "comments": [
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis"
+      ]
     },
     {
       "id": "2",
-      "title": "Electrical machines",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["electrical and electronics engineering", "engineering", "electrical"]
+      "title": "Second Dummy blog title for testing",
+      "author": "Jane Doe ~ Admin",
+      "date": "30 December, 2023",
+      "text_content": "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam",
+      "images": {
+        "bg": "bg-image2.jpeg",
+        "sub": ""
+      },
+      "comments": [
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis"
+      ]
     },
     {
       "id": "3",
-      "title": "Wireless networks",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["mechanical engineering", "engineering"]
+      "title": "Manchester United sacks Ten-hag",
+      "author": "John Doe ~ Admin",
+      "date": "1 Jabuary, 2024",
+      "text_content": "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam",
+      "images": {
+        "bg": "bg-image3.jpeg",
+        "sub": ""
+      },
+      "comments": [
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui  facere deserunt  facere deserunt quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem  facere deserunt voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        " facere deserunt voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis"
+      ]
     },
     {
       "id": "4",
-      "title": "Basic Electrical Circuits",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["electrical and electronics engineering", "engineering", "electrical"]
+      "title": "Manchester United goes top of the table",
+      "author": "James Maddison ~ Admin",
+      "date": "1 Febuary, 2024",
+      "text_content": "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam",
+      "images": {
+        "bg": "cover1.png",
+        "sub": ""
+      },
+      "comments": [
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui  facere deserunt  facere deserunt quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem  facere deserunt voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        " facere deserunt voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis"
+      ]
     },
     {
       "id": "5",
-      "title": "Introductory Mechatronics",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["mechanical engineering", "engineering", "mechatronics"]
-    },
-    {
-      "id": "6",
-      "title": "MATLAB",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["electrical and electronics engineering", "engineering", "electrical"]
-    },
-    {
-      "id": "7",
-      "title": "Thermodynamics",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["mechanical engineering", "engineering"]
-    },
-    {
-      "id": "8",
-      "title": "Structures",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["civil", "engineering"]
-    },
-    {
-      "id": "9",
-      "title": "Strength of materials",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["civil engineering", "engineering"]
-    },
-    {
-      "id": "10",
-      "title": "Material selection",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["engineering", "civil engineering"]
-    },
-    {
-      "id": "11",
-      "title": "Control systems",
-      "category": "Enginnering",
-      "url": "",
-      "thumbnail": "",
-      "tags": ["mechanical engineering", "engineering", "mechatronics"]
+      "title": "Manchester United goes top of the table",
+      "author": "James Maddison ~ Admin",
+      "date": "1 Febuary, 2024",
+      "text_content": "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis modi quas quidem tenetur commodiM olestias delectus quasi fugit corrupti architecto quam rem adipisci unde illum, autem nisi porro  cum ab! Neque aliquam quam magnam laudantium veniam",
+      "images": {
+        "bg": "image1.png",
+        "sub": ""
+      },
+      "comments": [
+        "rem voluptatum qui voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui  facere deserunt  facere deserunt quidem.Nobis",
+        "rem voluptatum qui rem voluptatum quivoluptatibus ipsam, facere deserunt rem  facere deserunt voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "facere deserunt voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis",
+        "voluptatibus ipsam, facere deserunt rem voluptatum qui quidem.Nobis"
+      ]
     }
   ]
 }
